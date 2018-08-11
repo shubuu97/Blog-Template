@@ -1,0 +1,310 @@
+<html>
+<head>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+<title>
+  my-blog
+</title>
+<style>
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+.cleanUp::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.cleanUp::before {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.header {
+  background-color: white;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.header h1 {
+  margin: 20;
+  font-size: 60;
+  font-weight: bold;
+}
+
+.header h4 {
+   margin-top: 20;
+   font-size: 30;
+}
+
+.first-banner {
+  box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.5);
+  padding: 20;
+  margin: 20;
+  width: 57%;
+  float: left;
+}
+
+.first-banner h1,h2,p {
+  margin-top: 20;
+}
+
+.first-banner a {
+  display: inline-block;
+  background-color: white;
+  border: 1px solid black;
+  text-decoration: none;
+  color: black;
+  font-size: 20;
+  padding: 8px 16px;;
+}
+
+.first-banner h3 {
+  float: right;
+  margin-right: 20px;
+  margin-top: 2;
+}
+
+.first-banner #noOfComment {
+  background-color: black;
+  color: white;
+  padding: 8px 16px;
+  margin-left: 20;
+}
+
+.second-banner {
+  width: 33%;
+  float: left;
+  height: 470px;
+  padding: 20;
+  margin: 20px 20px 20px 40px;
+  box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.5);
+}
+
+.second-banner h1,p {
+  margin-top: 20;
+}
+
+.fourth-banner {
+  float: left;
+  width: 33%;
+  box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.5);
+  margin: 20px 20px 20px 40px;
+  margin-top: -100;
+}
+
+#fourth-banner-header {
+  text-align: center;
+  background-color: #F5F5F5;
+  padding: 4px 20px;
+}
+
+#fourth-banner-header h1 {
+  font-weight: 80;
+  font-size: 25;
+  text-align: left;
+}
+
+.fourth-banner-posts {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.padding-16 {
+  padding-top: 16px!important;
+  padding-bottom: 16px!important;
+}
+
+.fourth-banner-posts li {
+  padding: 8px 16px;
+  border-bottom: 1px solid #ddd;
+  background-color: white;
+}
+
+.fourth-banner-posts li:last-child {
+  border-bottom: none;
+}
+
+.fourth-banner-posts li:hover {
+  background-color: #ccc;
+}
+
+.fifth-banner {
+  float: left;
+  width: 33%;
+  box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.5);
+  margin: 40px 20px 20px 40px;
+
+}
+
+.tag {
+  display: inline-block;
+  background-color: #F5F5F5;
+  color: black;
+  font-size: 16;
+  margin: 10;
+  padding: 0px 5px;
+  margin-left: 0;
+}
+
+.tags {
+  padding: 20px;
+}
+
+</style>
+</head>
+<body>
+
+<!-- header -->
+<div class="header">
+      <h1>My Blog</h1>
+      <h4>Welcome to the blog of shubham</h4>
+</div>
+<!-- header end -->
+
+<div>
+<!-- First banner -->
+<div class="first-banner">
+  <img src="./woods.jpg" width="730px"/>
+  <h1><b>Title Heading</b></h1>
+  <h2>Title description Apr 14, 2018</h2>
+  <p style="font-size: 20">
+    Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl.
+    Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna
+    enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non
+    congue ullam corper. Praesent tincidunt sed tellus ut rutrum. Sed
+    vitae justo condimentum, porta lectus vitae, ultricies congue gravida
+    diam non fringilla.
+  </p>
+  <div style="margin-top: 40px;">
+    <a href="#"><b>READ MORE &raquo;</b></a>
+    <h3>Comments<span id="noOfComment"><b>0</b></span></h3>
+  </div>
+</div>
+<!-- end first-banner -->
+
+<!-- second-banner -->
+<div class="second-banner">
+  <img src="./avatar_g.jpg" />
+  <h1>Shubham Chitransh</h1>
+  <p>
+    Just me, myself and I, exploring the universe of uknownment. I have a
+    heart of love and a interest of lorem ipsum and mauris neque quam blog.
+    I want to share my world with you.
+  </p>
+</div>
+<!-- end second-banner -->
+
+<!-- third-banner -->
+<div>
+  <div class="first-banner">
+    <img src="./bridge.jpg" width="730px"/>
+    <h1><b>Blog Entry</b></h1>
+    <h2>Title description Apr 14, 2018</h2>
+    <p style="font-size: 20">
+      Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl.
+      Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna
+      enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non
+      congue ullam corper. Praesent tincidunt sed tellus ut rutrum. Sed
+      vitae justo condimentum, porta lectus vitae, ultricies congue gravida
+      diam non fringilla.
+    </p>
+    <div style="margin-top: 40px;">
+      <a href="#"><b>READ MORE &raquo;</b></a>
+      <h3>Comments<span id="noOfComment"><b>2</b></span></h3>
+    </div>
+  </div>
+  <!-- end third-banner -->
+
+  <!-- fourth-banner -->
+  <div class="fourth-banner">
+    <div id="fourth-banner-header">
+      <h1>
+        Popular Posts
+      </h1>
+    </div>
+      <ul class="fourth-banner-posts">
+        <li class="padding-16">
+          <img src="./bridge.jpg" height="60px" width="60px" style="float: left; margin-right: 16px" />
+          <span style="font-size: 25px">Lorem</span><br>
+          <span>Sed mattis nunc</span>
+        </li>
+        <li class="padding-16">
+          <img src="./gondol.jpg" height="60px" width="60px" style="float: left; margin-right: 16px" />
+          <span style="font-size: 25px">Lorem</span><br>
+          <span>Sed mattis nunc</span>
+        </li>
+        <li class="padding-16">
+          <img src="./skies.jpg" height="60px" width="60px" style="float: left; margin-right: 16px" />
+          <span style="font-size: 25px">Lorem</span><br>
+          <span>Sed mattis nunc</span>
+        </li>
+        <li class="padding-16">
+          <img src="./woods.jpg" height="60px" width="60px" style="float: left; margin-right: 16px" />
+          <span style="font-size: 25px">Lorem</span><br>
+          <span>Sed mattis nunc</span>
+        </li>
+      </ul>
+  </div>
+<!-- end fourth-banner -->
+
+  <!-- fifth-banner -->
+  <div class="fifth-banner">
+    <div id="fourth-banner-header">
+      <h1>
+        Tags
+      </h1>
+    </div>
+    <div class="tags">
+        <p class="tag" style="background-color: black; color: white; font-size: 20">Lucknow</p>
+        <p class="tag">Arjunganj</p>
+        <p class="tag">Dubai</p>
+        <p class="tag">Lohia</p>
+        <p class="tag">Atif</p>
+        <p class="tag">America</p>
+        <p class="tag">Travel</p>
+        <p class="tag">Bags</p>
+        <p class="tag">Raja</p>
+        <p class="tag">Love</p>
+        <p class="tag">Hero</p>
+        <p class="tag">Avengers</p>
+        <p class="tag">Rakabganj</p>
+        <p class="tag">Travel</p>
+        <p class="tag">Bags</p>
+        <p class="tag">Raja</p>
+        <p class="tag">Love</p>
+        <p class="tag">Hero</p>
+        <p class="tag">Avengers</p>
+        <p class="tag">Rakabganj</p>
+        <p class="tag">Travel</p>
+        <p class="tag">Bags</p>
+        <p class="tag">Raja</p>
+        <p class="tag">Love</p>
+        <p class="tag">Hero</p>
+        <p class="tag">Avengers</p>
+        <p class="tag">Rakabganj</p>
+      </div>
+</div>
+  <!-- end fifth-banner -->
+</div>
+</div>
+
+<!-- footer -->
+<div style="background-color:#C0C0C0; padding: 20px; text-align: center; float: right; width: 100%; color: black; font-family: Arial; line-height: 40px;">
+  <p style="font-size: 30"><span style="font-size: 25">Designed By</span><br>Shubham Chitransh</p>
+  <span>&copy; Copyright2018. All Rights Reserved.</span>
+</div>
+<!-- end footer -->
+
+</body>
+</html>
